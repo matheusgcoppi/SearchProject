@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    font-size: 9px;
+}
+
+.href {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.img, .adv {
+    color: rgba(0, 0, 0, .87);
+    font-weight: 400;
+    text-decoration: none;
+    margin: 8px;
+    margin-top: 10px;
+}
+
+.adv {
+    padding-right: 3px;
+}
+
+#google {
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    transform: translate(-50%,-50%);
+    width: 160px;
+    height: 55px;
+}
+
+#google-search {
+    position: absolute;
+    left: 50%;
+    top: 49%;
+    transform: translate(-50%,-50%);
+}
+
+#google-text, #google-text::after, #google-text::before {
+    height: 25px;
+    width: 33vw;
+    border-radius: 10px;
+    color: rgba(0, 0, 0, .87);    
+    height:30px;
+    padding-left:25px;   
+}
+
+#submit {
+    position: relative;
+    top: 17px;
+    left: 70px;
+    background-color: rgb(248, 249, 250);
+    border-radius: 2px;
+    color: rgb(60, 64, 67);
+    border: 1px solid rgb(112, 116, 120);
+    cursor: pointer;
+    padding: 3px;
+    font-size: 10px;
+}
+
+#search-icon {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    left: 2%;
+    bottom: 50%;
+}
+
+#harvard{
+    position: absolute;
+    left: 54%;
+    top: 56.3%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(248, 249, 250);
+    border-radius: 2px;
+    color: rgb(60, 64, 67);
+    border: 1px solid rgb(112, 116, 120);
+    cursor: pointer;
+    padding: 3px;
+    font-size: 10px;
+
+}
