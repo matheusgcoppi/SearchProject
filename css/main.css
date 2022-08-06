@@ -46,7 +46,9 @@
     border-radius: 10px;
     color: rgba(0, 0, 0, .87);    
     height:30px;
-    padding-left:25px;   
+    padding-left:25px;  
+    box-shadow: 0 0 0 0;
+    outline: 0; 
 }
 
 #submit {
@@ -73,7 +75,7 @@
 #harvard{
     position: absolute;
     left: 54%;
-    top: 56.3%;
+    top: 55.85%;
     transform: translate(-50%,-50%);
     background-color: rgb(248, 249, 250);
     border-radius: 2px;
@@ -82,5 +84,4 @@
     cursor: pointer;
     padding: 3px;
     font-size: 10px;
-
 }

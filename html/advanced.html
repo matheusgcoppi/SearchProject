@@ -4,24 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
     <title>Document</title>
+    <link rel="stylesheet" href="/css/advanced.css">
 </head>
 <body>
-    <div class="container d-flex justify-content-center">
+    <div>
+      <a href="/html/main.html"> <img id="img" src="/assets/google1.png" alt="google"> </a>
+      <p id="advanced" style="color:rgb(214, 44, 44);">Advanced Search</p>
+      <hr>
+        <div class="div-p">
+          <p>Find pages with...</p>
+          <p>Do this in the search box.</p>
+        </div>
 
-        <div class="input-group col-sm-7  input-group-lg">
-                    <div class="input-group-prepend">
-                      <span class="input-group-text google"><img src="https://img.icons8.com/color/48/000000/google-logo.png"></span>
-                    </div>
-           <input type="text" class="form-control">
-                    <div class="input-group-append">
-                      <span class="input-group-text microphone"><img src="https://img.icons8.com/nolan/48/000000/microphone.png"></span>
-                    </div>
-         </div>
-      
+        <form class="form1" action="https://www.google.com/search" method="get">
+          <p class="p">All these words.</p>
+          <input class="search" type="text" name="as_q">
+          <p class="last-p">Type the important words: rat terrier tricolor</p>
+        
+          <div class="form2">
+          <p>All these words.</p>
+          <input class="search" type="text" name="as_epq">
+          <p class="last-p">Type the important words: rat terrier tricolor</p>
+          </div>  
 
-   </div>
+          <div class="form3">
+          <p>any of these words:</p>
+          <input class="search" type="text" name="as_oq">
+          <p class="last-p" >Type OR between all the words you search for: default OR thumbnail</p>
+          </div>
 
+          <div class="form4">
+          <p>none of these words:</p>
+          <input class="search" type="text" name="as_eq">
+          <p class="last-p" >Put a minus sign before the words you don't want:<br/> -rodent, -"Jack Russell"
+          </p>
+          </div>
+          <button class="submit" type="submit">Advanced Search</button>
+        </form> 
+
+    </div>
 </body>
 </html>
