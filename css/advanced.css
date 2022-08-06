@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    font-size: 7px;
+}
+
+#img {
+    margin: 10px;
+    height: 13px;
+    width: 37px;
+} 
+
+#advanced {
+    margin-top: 10px;
+    margin-left: 25px;
+    font-size: 11px;
+}
+
+hr {
+    background-color: #ccc;
+    border: none;
+    height: 0.1px;
+    margin-top: 13px;
+}
+
+.div-p {
+    display: flex;
+    justify-content: baseline;
+    gap: 300px;
+    margin-top: 22px;
+    margin-left: 23px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.search  {
+    width: 250px;
+    height: 20px;
+    margin-top: -7px;
+    border: 1px solid rgb(184, 184, 184);
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.form1 {
+    margin-top: 20px;
+    display: flex;
+    justify-content: baseline;
+    margin-left: 23px;
+    
+}
+
+.form1 p {
+    margin-right: 60px;
+}
+
+.form2 {
+    display: flex;
+    position: absolute;
+    top: 30%;
+    justify-content: baseline;
+    margin-top: 10px;
+}
+
+.form2 p {
+    margin-right: 59px;
+}
+
+.form3 {
+    display: flex;
+    position: absolute;
+    top: 36%;
+    justify-content: baseline;
+    margin-top: 10px;
+}
+
+.form3 p {
+    margin-right: 48px;
+}
+
+.form4 {
+    display: flex;
+    position: absolute;
+    top: 42%;
+    justify-content: baseline;
+    margin-top: 10px;
+}
+
+.form4 p {
+    margin-right: 43px;
+}
+
+.last-p {
+    margin-left: 10px;
+    margin-top: -3px;
+}
+
+.submit {
+    position: absolute;
+    top: 50%;
+    left: 32.3%;
+    color: white;
+    background-color: rgb(72, 133, 246);
+    border: none;
+    width: 70px;
+    height: 17px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
