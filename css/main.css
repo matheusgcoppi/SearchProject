@@ -24,64 +24,64 @@
     padding-right: 3px;
 }
 
-#google {
-    position: absolute;
-    left: 50%;
-    top: 35%;
-    transform: translate(-50%,-50%);
-    width: 160px;
-    height: 55px;
+.google-div {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    position: relative;
+    margin-top: -150px;
 }
 
-#google-search {
-    position: absolute;
-    left: 50%;
-    top: 49%;
-    transform: translate(-50%,-50%);
+#google {
+    margin-bottom: 35px;
+    width: 160px;
+    height: 55px;
 }
 
 #google-text, #google-text::after, #google-text::before {
     height: 25px;
     width: 33vw;
-    border-radius: 10px;
-    color: rgba(0, 0, 0, .87);    
-    height:30px;
-    padding-left:25px;  
-    box-shadow: 0 0 0 0;
+    background-color: #fff;
+    border-radius: 1.5rem;
+    border: 1px solid #dfe1e5;
+    border-radius: 22px;
+    font-family: inherit;
+    font-size: inherit;  
+    height: 30px;  
     outline: 0; 
+    padding-left: 30px;
 }
 
-#submit {
+
+#google-icon {
     position: relative;
-    top: 17px;
-    left: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    top: -20px;
+    left: -193px;
+}
+
+
+
+#submit {
     background-color: rgb(248, 249, 250);
     border-radius: 2px;
     color: rgb(60, 64, 67);
     border: 1px solid rgb(112, 116, 120);
     cursor: pointer;
-    padding: 3px;
     font-size: 10px;
 }
 
-#search-icon {
-    position: absolute;
-    height: 20px;
-    width: 20px;
-    left: 2%;
-    bottom: 50%;
-}
-
 #harvard{
-    position: absolute;
-    left: 54%;
-    top: 55.85%;
-    transform: translate(-50%,-50%);
     background-color: rgb(248, 249, 250);
     border-radius: 2px;
     color: rgb(60, 64, 67);
     border: 1px solid rgb(112, 116, 120);
     cursor: pointer;
-    padding: 3px;
     font-size: 10px;
 }

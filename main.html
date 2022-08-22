@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Main</title>
     <link rel="stylesheet" href="/css/main.css">
+    <script src="https://kit.fontawesome.com/2482c28b8c.js" crossorigin="anonymous"></script>
+    
 </head>
 <body>
     <div class="main-div">
@@ -17,18 +19,24 @@
                 Advanced
             </a>
         </div>
-        <img id="google" src="/assets/google1.png" alt="Google">
 
-        <form id="google-search" action="https://www.google.com/search">
-            <input id="google-text" type="text" name="q">
-            <img id="search-icon" src="/assets/google-search.png" alt="">
-            <br/>
-            <input id="submit" type="submit" value="Google Search">
-        </form>
+        <div class="google-div">
+            <img id="google" src="/assets/google1.png" alt="Google">
 
-        <form action="https://www.harvard.edu/">
-            <input id="harvard" type="submit" value="I'm felling Lucky">
-        </form>
+            <div id="google-search">
+                <form action="https://www.google.com/search">
+                    <input id="google-text" type="text" name="q" autocomplete="off" autofocus placeholder="Search Google or type a URL">
+            </div>
+            <span id="google-icon"><i class="fas fa-search fa-lg"></i></span>
+    
+            <div id="submit"><input type="submit" value="Google Search"></div>
+                </form>
+
+            <div><form action="https://www.harvard.edu/">
+                <input id="harvard" type="submit" value="I'm felling Lucky">
+            </form>
+        </div>    
+        </div>
     </div>
 </body>
 </html>
