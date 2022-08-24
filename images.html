@@ -6,18 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Images</title>
     <link rel="stylesheet" href="/css/images.css">
+    <link rel="icon" href="assets/favicon.png"></link>
+    <script src="https://kit.fontawesome.com/2482c28b8c.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="main-div">
-        <a class="search" href="./main.html">
-            Search
-        </a>
+    <a class="search" href="./main.html">
+        Search
+    </a>
+    <div class="google-div">
         <img id="google" src="/assets/google1.png" alt="Google">
 
-        <form id="google-search" action="https://www.google.com/search">
-            <input id="google-text" type="text" name="q">
-            <img id="search-icon" src="/assets/google-search.png" alt="">
-        </form>
+        <div id="google-search">
+            <form action="https://www.google.com/search">
+                <button id="button-search" type="submit" name="tbm" value="isch" title="Search"><i class="fas fa-search fa-1x"></i></button>
+                <input id="google-text" type="text" name="q" autocomplete="off" title="Search">
+            </form>
+        </div>
     </div>
 </body>
 </html>
